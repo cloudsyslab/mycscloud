@@ -27,5 +27,7 @@ if Cur_Count > Max_Count:
     Max_Addr = Cur_Addr		
     MaxCrimeList = CrimeList
 
-print ("%s\t%s" % (Max_Addr, len(MaxCrimeList)))
+print ("Most of the crimes were reported in " + Max_Addr)
+print ("Total number of crimes reported in " + Max_Addr + " is " + str(Max_Count))
+print ("Crimes reported in " + Max_Addr + " are " + str(set(MaxCrimeList)))
 
